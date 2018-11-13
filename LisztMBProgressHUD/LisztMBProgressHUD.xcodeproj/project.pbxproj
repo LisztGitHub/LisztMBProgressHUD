@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A109E15219A76270059095F /* LisztMBResource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A109E14219A76270059095F /* LisztMBResource.xcassets */; };
+		3A109E19219A78000059095F /* LisztProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A109E18219A78000059095F /* LisztProgressHUD.m */; };
+		3A109E1C219A79A80059095F /* LisztActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A109E1B219A79A80059095F /* LisztActivityIndicatorView.m */; };
+		3A87C703219987C3006D8665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A87C702219987C3006D8665 /* AppDelegate.m */; };
+		3A87C706219987C3006D8665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A87C705219987C3006D8665 /* ViewController.m */; };
+		3A87C709219987C3006D8665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A87C707219987C3006D8665 /* Main.storyboard */; };
+		3A87C70B219987C6006D8665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A87C70A219987C6006D8665 /* Assets.xcassets */; };
+		3A87C70E219987C6006D8665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A87C70C219987C6006D8665 /* LaunchScreen.storyboard */; };
+		3A87C711219987C6006D8665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A87C710219987C6006D8665 /* main.m */; };
+		3A87C71D21998850006D8665 /* UIView+LisztMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A87C71B21998850006D8665 /* UIView+LisztMBProgressHUD.m */; };
+		DE9C18BB93E64B69B47F4F65 /* libPods-LisztMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44858E6DA73514ACF7E4220 /* libPods-LisztMBProgressHUD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		247C21CBFF36DD1426729BAD /* Pods-LisztMBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LisztMBProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-LisztMBProgressHUD/Pods-LisztMBProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		3A109E14219A76270059095F /* LisztMBResource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LisztMBResource.xcassets; sourceTree = "<group>"; };
+		3A109E17219A78000059095F /* LisztProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztProgressHUD.h; sourceTree = "<group>"; };
+		3A109E18219A78000059095F /* LisztProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztProgressHUD.m; sourceTree = "<group>"; };
+		3A109E1A219A79A80059095F /* LisztActivityIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LisztActivityIndicatorView.h; sourceTree = "<group>"; };
+		3A109E1B219A79A80059095F /* LisztActivityIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztActivityIndicatorView.m; sourceTree = "<group>"; };
+		3A87C6FE219987C3006D8665 /* LisztMBProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisztMBProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A87C701219987C3006D8665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A87C702219987C3006D8665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A87C704219987C3006D8665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A87C705219987C3006D8665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A87C708219987C3006D8665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A87C70A219987C6006D8665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A87C70D219987C6006D8665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A87C70F219987C6006D8665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A87C710219987C6006D8665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A87C71B21998850006D8665 /* UIView+LisztMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LisztMBProgressHUD.m"; sourceTree = "<group>"; };
+		3A87C71C21998850006D8665 /* UIView+LisztMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LisztMBProgressHUD.h"; sourceTree = "<group>"; };
+		A44858E6DA73514ACF7E4220 /* libPods-LisztMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LisztMBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE55D5CFABF1B95A4DE73679 /* Pods-LisztMBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LisztMBProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LisztMBProgressHUD/Pods-LisztMBProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A87C6FB219987C3006D8665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9C18BB93E64B69B47F4F65 /* libPods-LisztMBProgressHUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F5FB3F180B9618D4146552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44858E6DA73514ACF7E4220 /* libPods-LisztMBProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A109E16219A78000059095F /* LisztProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3A109E17219A78000059095F /* LisztProgressHUD.h */,
+				3A109E18219A78000059095F /* LisztProgressHUD.m */,
+				3A109E1A219A79A80059095F /* LisztActivityIndicatorView.h */,
+				3A109E1B219A79A80059095F /* LisztActivityIndicatorView.m */,
+			);
+			path = LisztProgressHUD;
+			sourceTree = "<group>";
+		};
+		3A87C6F5219987C3006D8665 = {
+			isa = PBXGroup;
+			children = (
+				3A87C700219987C3006D8665 /* LisztMBProgressHUD */,
+				3A87C6FF219987C3006D8665 /* Products */,
+				CD2185839E7AC47E6E765F77 /* Pods */,
+				10F5FB3F180B9618D4146552 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A87C6FF219987C3006D8665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A87C6FE219987C3006D8665 /* LisztMBProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A87C700219987C3006D8665 /* LisztMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3A87C71A21998850006D8665 /* LisztMBProgressHUD */,
+				3A87C701219987C3006D8665 /* AppDelegate.h */,
+				3A87C702219987C3006D8665 /* AppDelegate.m */,
+				3A87C704219987C3006D8665 /* ViewController.h */,
+				3A87C705219987C3006D8665 /* ViewController.m */,
+				3A87C707219987C3006D8665 /* Main.storyboard */,
+				3A87C70A219987C6006D8665 /* Assets.xcassets */,
+				3A87C70C219987C6006D8665 /* LaunchScreen.storyboard */,
+				3A87C70F219987C6006D8665 /* Info.plist */,
+				3A87C710219987C6006D8665 /* main.m */,
+			);
+			path = LisztMBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3A87C71A21998850006D8665 /* LisztMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3A87C71C21998850006D8665 /* UIView+LisztMBProgressHUD.h */,
+				3A87C71B21998850006D8665 /* UIView+LisztMBProgressHUD.m */,
+				3A109E16219A78000059095F /* LisztProgressHUD */,
+				3A109E14219A76270059095F /* LisztMBResource.xcassets */,
+			);
+			path = LisztMBProgressHUD;
+			sourceTree = "<group>";
+		};
+		CD2185839E7AC47E6E765F77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE55D5CFABF1B95A4DE73679 /* Pods-LisztMBProgressHUD.debug.xcconfig */,
+				247C21CBFF36DD1426729BAD /* Pods-LisztMBProgressHUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A87C6FD219987C3006D8665 /* LisztMBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A87C714219987C6006D8665 /* Build configuration list for PBXNativeTarget "LisztMBProgressHUD" */;
+			buildPhases = (
+				8C647E79F6EB6504F7ABC345 /* [CP] Check Pods Manifest.lock */,
+				3A87C6FA219987C3006D8665 /* Sources */,
+				3A87C6FB219987C3006D8665 /* Frameworks */,
+				3A87C6FC219987C3006D8665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisztMBProgressHUD;
+			productName = LisztMBProgressHUD;
+			productReference = 3A87C6FE219987C3006D8665 /* LisztMBProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A87C6F6219987C3006D8665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LisztMBProgressHUD;
+				TargetAttributes = {
+					3A87C6FD219987C3006D8665 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A87C6F9219987C3006D8665 /* Build configuration list for PBXProject "LisztMBProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A87C6F5219987C3006D8665;
+			productRefGroup = 3A87C6FF219987C3006D8665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A87C6FD219987C3006D8665 /* LisztMBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A87C6FC219987C3006D8665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A87C70E219987C6006D8665 /* LaunchScreen.storyboard in Resources */,
+				3A109E15219A76270059095F /* LisztMBResource.xcassets in Resources */,
+				3A87C70B219987C6006D8665 /* Assets.xcassets in Resources */,
+				3A87C709219987C3006D8665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C647E79F6EB6504F7ABC345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LisztMBProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A87C6FA219987C3006D8665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A87C706219987C3006D8665 /* ViewController.m in Sources */,
+				3A87C71D21998850006D8665 /* UIView+LisztMBProgressHUD.m in Sources */,
+				3A109E1C219A79A80059095F /* LisztActivityIndicatorView.m in Sources */,
+				3A109E19219A78000059095F /* LisztProgressHUD.m in Sources */,
+				3A87C711219987C6006D8665 /* main.m in Sources */,
+				3A87C703219987C3006D8665 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A87C707219987C3006D8665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A87C708219987C3006D8665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A87C70C219987C6006D8665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A87C70D219987C6006D8665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A87C712219987C6006D8665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A87C713219987C6006D8665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A87C715219987C6006D8665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE55D5CFABF1B95A4DE73679 /* Pods-LisztMBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LisztMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LisztMBProgressHUD.LisztMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A87C716219987C6006D8665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247C21CBFF36DD1426729BAD /* Pods-LisztMBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LisztMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LisztMBProgressHUD.LisztMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A87C6F9219987C3006D8665 /* Build configuration list for PBXProject "LisztMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A87C712219987C6006D8665 /* Debug */,
+				3A87C713219987C6006D8665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A87C714219987C6006D8665 /* Build configuration list for PBXNativeTarget "LisztMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A87C715219987C6006D8665 /* Debug */,
+				3A87C716219987C6006D8665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A87C6F6219987C3006D8665 /* Project object */;
+}
